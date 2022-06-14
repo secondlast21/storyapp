@@ -1,0 +1,33 @@
+- Testing ViewModel :
+	a. SignupViewModel :
+		+ Ketika user berhasil sign up, maka memastikan mengembalikan respon sukses (Result.Success)
+		- Ketika user gagal sign up, maka memastikan mengembalikan respon gagal (Result.Error)
+	b. SigninViewModel :
+		+ Ketika user berhasil sign in, maka memastikan data tidak null dan mengembalikan respon sukses 		  (Result.Success)
+		- Ketika user gagal sign in, maka memastikan mengembalikan respon gagal (Result.Error)
+	c. MainViewModel :
+		+ Memastikan data tidak null, memastikan jika jumlah data sesuai dengan yang diharapkan, dan 			  memastikan jika isi data sesuai dengan yang diharapkan
+	d. AddViewModel :
+		+ Ketika user berhasil tambah cerita, maka memastikan data tidak null dan mengembalikan respon 		  sukses(Result.Success)
+		- Ketika user gagal tambah cerita, maka memastikan mengembalikan respon gagal (Result.Error)
+	e. MapsViewModel :
+		+ Ketika user berhasil melihat mapmengembalikan respon sukses (Result.Success), memastikan data 	          tidak null, dan memastikan jumlah data sesuai dengan yang diharapkan
+		- Ketika user gagal melihat map, mengembalikan respon error (Result.Error)
+
+- Testing Repository :
+	a. MainRepository :
+		+ Mengecek apakah fungsi signUp mendapatkan data tidak null dan memastikan data yang didapat sesuai 			  dengan yang diharapkan
+		+ Mengecek apakah fungsi signIn mendapatkan data tidak null dan memastikan data yang didapat sesuai 			  dengan yang diharapkan
+	b. RemoteRepository :
+		+ Mengecek apakah fungsi testAllStories mendapatkan data tidak null dan mendapatkan hasil yang 		  diharapkan (ListStoryResponse)
+		+ Mengecek apakah data yang didapat memiliki ukuran yang sesuai dengan yang diharapkan
+	c. StoryRepository : 
+		+ Mengecek apakah fungsi addNewStory mendapatkan data tidak null dan memastikan data yang didapat 			  sesuai dengan yang diharapkan (AddNewResponse)
+		+ Mengecek apakah fungsi getLocation mendapatkan data yang didapat sesuai yang diharapkan 			  (ListStoryResponse)
+		
+- Integration Testing :
+	+ Launch Main Activity
+	+ Memastikan Recycler View tampil
+	+ Memastikan Recycler View dapat discroll dan diklik
+	+ Memastikan id yang dicari ada dan sesuai
+	+ Memastikan string yang dicari ada dan sesuai

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="cover_signup">Cover SignUp</string>
+    <string name="cover_signin">Cover Signin</string>
+    <string name="welcome_screen">Welcome to Story App</string>
+    <string name="welcome_screen_2">Get Started</string>
+    <string name="error_name">NAMA BELUM SESUAI</string>
+    <string name="error_email">EMAIL BELUM SESUAI</string>
+    <string name="error_password">PASSWORD BELUM SESUAI</string>
+    <string name="story">Story</string>
+    <string name="username">Username</string>
+    <string name="description">description</string>
+    <string name="avatar_icon">avatar icon</string>
+    <string name="detail_name">Name</string>
+    <string name="detail_desc">Description</string>
+    <string name="detail_created">Created</string>
+    <string name="add_story">Add Story</string>
+    <string name="logout">Logout</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="add_description">Tell your story</string>
+    <string name="add_upload">Upload Your Story</string>
+    <string name="retry">retry</string>
+    <string name="timeout">Timeout</string>
+    <string name="Maps">add_maps</string>
+    <string name="location_on">Location On</string>
+    <string name="location_off">Location Off</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
